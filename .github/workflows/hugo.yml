@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       # IMPORTANTE: configura Pages e fornece o base_url correto pro build
       - name: Setup Pages
@@ -42,6 +44,11 @@ jobs:
           echo "---- check index ----"
           test -f public/index.html
           test -f public/index.xml
+
+      - name: Verify build output
+        run: |
+          test -f public/index.html
+          ls -la public | head -n 50
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
