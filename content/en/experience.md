@@ -34,7 +34,7 @@ positions:
 
   - company: "Iteris Consultoria e Software"
     company_url: "https://www.iteris.com.br/"
-    role: "QA Lead Automation"
+    role: "Quality Assurance Automation Lead"
     period: "Mar 2024 - Dec 2025"
     industry: "Technology / Consulting"
     location: "São Paulo, Brazil"
