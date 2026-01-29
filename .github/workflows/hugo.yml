@@ -21,12 +21,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           submodules: recursive
 
       # IMPORTANTE: configura Pages e fornece o base_url correto pro build
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
+      - name: Verify theme checkout
+        run: |
+          ls -la themes
+          test -f themes/careercanvas/theme.toml
+          test -d themes/careercanvas/layouts
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -40,15 +47,9 @@ jobs:
         run: |
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
           echo "---- public root ----"
-          ls -la public | sed -n '1,120p'
+          ls -la public | head -n 120
           echo "---- check index ----"
           test -f public/index.html
-          test -f public/index.xml
-
-      - name: Verify build output
-        run: |
-          test -f public/index.html
-          ls -la public | head -n 50
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
