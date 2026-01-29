@@ -6,7 +6,7 @@
 # - Production: Environment variables injected via GitHub Actions
 # - See comments below for setup instructions
 #
-#baseURL = "https://felipecordero.com"
+baseURL = "https://joseailtonqa.github.io/"
 languageCode = "en-us"
 title = "José Ailton Jr"
 theme = "careercanvas"
