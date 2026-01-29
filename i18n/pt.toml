@@ -1,0 +1,85 @@
+# Traduções básicas da UI (prontas para o tema). Ajuste chaves conforme necessário.
+
+[read_more]
+other = "Ler mais"
+
+[by]
+other = "por"
+
+[posted_on]
+other = "Publicado em"
+
+[tags]
+other = "Tags"
+
+[contact]
+other = "Contato"
+
+[send]
+other = "Enviar"
+
+[skills]
+other = "Habilidades"
+
+[experience]
+other = "Experiência"
+
+[about]
+other = "Sobre"
+
+[blog]
+other = "Blog"
+
+[engineering]
+other = "Engenharia"
+
+[contributions]
+other = "Contribuições"
+
+[technical]
+other = "Tech Stack"
+
+[language]
+other = "Idioma"
+
+[getInTouch]
+other = "Fale comigo"
+
+[learnMore]
+other = "Saiba mais"
+
+[sendMeAMessage]
+other = "Envie-me uma mensagem"
+
+[contactInformation]
+other = "Informações de contato"
+
+[priorityContact]
+other = "Contato prioritário"
+
+[aboutMe]
+other = "Sobre mim"
+
+[connectOnLinkedIn]
+other = "Conectar no LinkedIn"
+
+[quickFacts]
+other = "Dados rápidos"
+
+[more]
+other = "Mais"
+
+[aboutName]
+other = "Sobre"
+
+[relatedContent]
+other = "Conteúdo relacionado"
+
+[interests]
+other = "Interesses"
+
+[downloadResume]
+other = ""
+
+[viewCV]
+other = "Ver CV"

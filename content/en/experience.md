@@ -4,8 +4,9 @@ type: "homepage"
 intro: >-
   From structural engineering to AI development, building practical tools that bridge traditional engineering with modern technology.
 
-resume_url_en: "/files/Felipe_Cordero_CV_English_version.pdf"
-resume_url_fr: "/files/Felipe_Cordero_CV_French_version.pdf"
+resume_url_en: "/files/JoseAiton_CV_EN.pdf"
+resume_url_fr: ""
+resume_url_pt: "/files/thesis/JoseAiton_CV_Pt-br.pdf"
 resume_label: "Download Resume"
 
 positions:

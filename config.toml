@@ -6,83 +6,97 @@
 # - Production: Environment variables injected via GitHub Actions
 # - See comments below for setup instructions
 #
-baseURL = "https://felipecordero.com"
+#baseURL = "https://felipecordero.com"
 languageCode = "en-us"
-title = "Felipe Cordero"
+title = "José Ailton Jr"
 theme = "careercanvas"
-defaultContentLanguage = "en"
+defaultContentLanguage = "pt"
 defaultContentLanguageInSubdir = false
 
 [languages]
+  [languages.pt]
+    contentDir = "content/pt"
+    languageName = "Português"
+    weight = 1
+    [languages.pt.params]
+      tagline = "Especialista em Qualidade de Software"
+      hero_description = "Engenheiro de qualidade sênior com mais de 11 anos em engenharia de software, dominando automação de testes, testes de API, integração CI/CD e estratégias de qualidade orientadas a risco, com liderança técnica prática em times distribuídos."
+      hero_location = "São Paulo, Brasil"
+      collab_tags = [
+        "Engenheiro de Qualidade",
+        "SDET",
+        "QA Engineer",
+        "Automação de Testes",
+        "Engenharia de Qualidade de Software",
+        "Estratégia de Testes",
+        "Testes de API",
+        "Automação de API",
+        "Testes End-to-End (E2E)",
+        "CI/CD",
+        "Teste Contínuo",
+        "Shift-Left Testing",
+        "Testes Baseados em Risco",
+        "Playwright",
+        "Cypress",
+        "Selenium",
+        "RestAssured",
+        "Java",
+        "Agile Scrum"
+      ]
   [languages.en]
     contentDir = "content/en"
     languageName = "English"
-    weight = 1
-    [languages.en.params]
-      tagline = "Engineer. Coder. Problem Solver."
-      hero_description = "Structural engineer and full stack developer with 14+ years in Architecture, Engineering, and Construction (AEC), now specializing in AI/ML. Currently building security and compliance solutions for LLM-based AI agents at Fireraven."
-      hero_location = "Montréal, Canada"
-      collab_tags = [
-        "Full Stack Development",
-        "AI Security & Compliance",
-        "LLM-based Solutions",
-        "PostgreSQL & Data Pipelines",
-        "Agile Scrum"
-      ]
-  [languages.es]
-    contentDir = "content/es"
-    languageName = "Español"
     weight = 2
-    [languages.es.params]
-      tagline = "Ingeniero. Desarrollador de Software. Solucionador de problemas."
-      hero_description = "Ingeniero estructural y desarrollador de software con más de 14 años en Arquitectura, Ingeniería y Construcción (AEC), ampliando experiencia en IA/ML para crear soluciones inteligentes a problemas de ingeniería complejos."
-      hero_location = "Montreal, Canadá"
+    [languages.en.params]
+      tagline = "Software Quality Specialist"
+      hero_description = "Senior Quality Engineer with 11+ years of experience in Software Quality Engineering within agile and enterprise-scale environments. Strong expertise in test automation, API testing, CI/CD integration, and risk-based quality strategies, combined with hands-on technical leadership and mentoring of large, distributed teams. Proven ability to embed quality into the SDLC, reduce delivery risks, and accelerate releases."
+      hero_location = "São Paulo, Brazil"
       collab_tags = [
-        "Soluciones de IA/ML",
-        "Software de Ingeniería",
-        "I+D e Innovación",
-        "Liderazgo Técnico",
-        "Tecnología en Construcción"
-      ]
-  [languages.fr]
-    contentDir = "content/fr"
-    languageName = "Français"
-    weight = 3
-    [languages.fr.params]
-      tagline = "Ingénieur. Codeur. Résolveur de problèmes."
-      hero_description = "Ingénieur structure et développeur logiciel avec plus de 14 ans d'expérience dans l'architecture, l'ingénierie et la construction (AEC), développant des solutions intelligentes grâce à l'IA/ML pour résoudre des problèmes complexes."
-      hero_location = "Montréal, Canada"
-      collab_tags = [
-        "Solutions IA/ML",
-        "Logiciels d'ingénierie",
-        "R&D et Innovation",
-        "Leadership technique",
-        "Technologie de construction"
+        "Quality Engineer",
+        "SDET",
+        "QA Engineer",
+        "Test Automation Engineer",
+        "Software Quality Engineering",
+        "Test Automation",
+        "Test Strategy",
+        "API Testing",
+        "API Automation",
+        "End-to-End Testing (E2E)",
+        "CI/CD",
+        "Continuous Testing",
+        "Shift-Left Testing",
+        "Risk-Based Testing",
+        "Playwright",
+        "Cypress",
+        "Selenium",
+        "RestAssured",
+        "Java",
+        "Agile Scrum"
       ]
 
 [build]
   writeStats = true
 
 [params]
-name = "Felipe Cordero"
-email = "mail@felipecordero.com"
-profile_image = "/images/felipe-cordero-profile.jpg"
-author = "Felipe Cordero"
+name = "José Ailton Jr"
+email = "jafajr.qa@gmail.com"
+profile_image = "/images/Perfil.jpeg"
+author = "José Ailton Jr"
 
 og_image = "images/felipecordero-og.png"
 
 description = "Structural engineer and full stack developer specializing in AI/ML. Building security and compliance solutions for LLM-based AI agents at Fireraven using Python, React, and modern web technologies."
 
-linkedin_url = "https://www.linkedin.com/in/felipe-cordero-osorio"
-linkedin_text = "linkedin.com/in/felipe-cordero-osorio"
-github_url = "https://github.com/felipecordero"
-github_text = "github.com/felipecordero"
+linkedin_url = "https://www.linkedin.com/in/jafajr"
+linkedin_text = "linkedin.com/in/jafajr"
+github_url = "https://github.com/JoseAiltonQA"
+github_text = "github.com/JoseAiltonQA"
 
-copyright = "© 2025 | Felipe Cordero"
+copyright = "© 2026 | José Ailton Jr"
 
 
-resume_url_en = "/files/Felipe_Cordero_CV_English_version.pdf"
-resume_url_fr = "/files/Felipe_Cordero_CV_French_version.pdf"
+resume_url_en = "/files/JoseAiton_CV_EN.pdf"
+resume_url_fr = ""
 resume_label = "View CV"
 
 # Contact Form Configuration
@@ -101,11 +115,11 @@ resume_label = "View CV"
 
 [[params.social]]
 icon = "linkedin-in"
-url = "https://www.linkedin.com/in/felipe-cordero-osorio/"
+url = "https://www.linkedin.com/in/jafajr/"
 
 [[params.social]]
 icon = "github"
-url = "https://github.com/felipecordero"
+url = "https://github.com/JoseAiltonQA"
 
 sectionPagesMenu = 'main'
 
