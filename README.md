@@ -109,4 +109,4 @@ For any questions or suggestions, please open an issue in the GitHub repository 
 
 ## 🚨 Important Note
 
-The built CSS file (`themes/careercanvas/static/css/main.css`) is managed by the theme submodule and should not be committed separately in this repository. If you need to update the CSS, please do so in the theme repository and then update the submodule here. 
+The built CSS file (`themes/careercanvas/static/css/main.css`) is managed by the theme submodule and should not be committed separately in this repository. If you need to update the CSS, please do so in the theme repository and then update the submodule here.

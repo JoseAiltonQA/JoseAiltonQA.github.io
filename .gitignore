@@ -22,3 +22,11 @@ desktop.ini
 .env.*
 config.local.toml
 .vercel
+
+# Ruby/Jekyll artifacts
+*.gem
+.bundle
+.sass-cache
+_site
+*.code-workspace
+vendor
