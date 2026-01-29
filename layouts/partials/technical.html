@@ -1,10 +1,10 @@
 <!-- Technical Skills Section -->
-<section id="technical" class="py-12 bg-[#c8cae7] border-t border-border-primary" data-animate>
+<section id="technical" class="py-12 bg-[#313337] border-t border-border-primary" data-animate>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     {{ with .Site.GetPage "technical" }}
       <!-- Section heading -->
-      <h2 class="text-3xl font-bold text-center mb-4 font-heading text-gray-900">{{ .Title }}</h2>
-      <p class="text-lg text-center mb-12 text-gray-900 italic">{{ .Params.intro }}</p>
+      <h2 class="text-3xl font-bold text-center mb-4 font-heading text-gray-100">{{ .Title }}</h2>
+      <p class="text-lg text-center mb-12 text-gray-200 italic">{{ .Params.intro }}</p>
 
       <!-- Technical skills groups in cards -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -56,7 +56,7 @@
                     <i class="fas fa-{{ .icon }} text-5xl {{ $randomColor }}" data-animation="skill-icon" aria-hidden="true"></i>
                   </div>
                 {{ end }}
-                <span class="text-sm font-semibold text-gray-900">{{ .name }}</span>
+                <span class="text-sm font-semibold text-gray-800">{{ .name }}</span>
               </div>
               {{ end }}
             </div>
