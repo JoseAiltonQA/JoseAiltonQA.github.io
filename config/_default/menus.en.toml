@@ -29,12 +29,6 @@ url = "/blog/"
 weight = 60
 
 [[main]]
-name = "Engineering"
-url = "/engineering/"
-weight = 50
-pre = "engineering"
-
-[[main]]
 name = "Contributions"
 url = "/contributions/"
 weight = 51

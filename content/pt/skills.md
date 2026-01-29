@@ -2,46 +2,43 @@
 title: "Habilidades"
 type: "homepage"
 intro: >-
-  Combinando mais de 14 anos de engenharia estrutural com desenvolvimento full stack moderno, focado em Python, React e capacidades de IA/ML.
-
+  Competências técnicas e de liderança que aplico para garantir qualidade e alinhamento ao negócio.
 domains:
-  - icon: "code"
-    title: "Desenvolvimento Full Stack"
-    description: "Criação de soluções full stack escaláveis com Python (FastAPI, NestJS) e React (Next.js, TypeScript), mantendo divisão 50/50 entre backend e frontend. Experiência em POO, padrões de projeto (DRY, YAGNI, SOLID) e arquitetura de microserviços."
-    devicon_class: "devicon-python-plain colored"
-
-  - icon: "brain"
-    title: "Segurança & Compliance em IA"
-    description: "Desenho e desenvolvimento de recursos de segurança e conformidade para agentes baseados em LLM. Construção de soluções de nível corporativo com foco regulatório para aplicações financeiras."
-    devicon_class: "devicon-tensorflow-original colored"
-
-  - icon: "database"
-    title: "Banco de Dados & Dados"
-    description: "Modelagem e otimização de esquemas, consultas e pipelines em PostgreSQL. Tratamento de relacionamentos complexos e requisitos de conformidade regulatória."
-    devicon_class: "devicon-postgresql-plain colored"
-
-  - icon: "tools"
-    title: "Expertise em Engenharia"
-    description: "Aplicação de conhecimento de engenharia estrutural aliado a tecnologia moderna para criar soluções inovadoras para desafios de engenharia."
-    devicon_class: "devicon-docker-plain colored"
-
   - icon: "users"
-    title: "Colaboração & Liderança Ágil"
-    description: "Colaboração com times distribuídos em ambientes Scrum. Liderança de equipes multidisciplinares em P&D e desenvolvimento de software, coordenando projetos complexos."
-    devicon_class: "devicon-github-original colored"
+    title: "Liderança"
+    description: |
+      • Mentoring e People Leadership
+      • Stakeholder Management
+      • Comunicação com Dev/PO/Negócio
+      • Alinhamento de risco, priorização e métricas
+    devicon_class: "devicon-github-plain colored"
 
-  - icon: "lightbulb"
-    title: "Negócio & Estratégia"
-    description: "Desenvolvimento de estratégias de inovação e documentação técnica, incluindo propostas de investimento acima de USD 500K."
-    devicon_class: "devicon-react-original colored"
+  - icon: "tasks"
+    title: "Gestão e Gerência de Qualidade de Software"
+    description: |
+      • Test Strategy & Governance (estratégia, processo, padrões)
+      • Test Planning & Reporting
+      • Shift-Left Testing
+      • Risk-Based Testing
+      • GO/NO-GO e métricas de qualidade
+    devicon_class: "devicon-git-plain colored"
 
-  - icon: "globe"
-    title: "Experiência Internacional"
-    description: "Falante nativo de espanhol com proficiência IELTS C1 em inglês e TCF B2 em francês, permitindo comunicação eficaz em times globais."
-    devicon_class: "devicon-html5-plain colored"
-
-  - icon: "hands-helping"
-    title: "Comunidade & Aprendizado"
-    description: "Atuação voluntária e desenvolvimento profissional, incluindo avaliação estrutural para ajuda humanitária e programas de acolhimento estudantil. Vencedor da Bolsa de Excelência Acadêmica no Collège LaSalle Montréal."
+  - icon: "robot"
+    title: "Automação"
+    description: |
+      • Quality Engineering / QA Automation
+      • API & Contract Testing
+      • End-to-End (E2E) e Performance Testing
+      • BDD (Gherkin) e TDD quando aplicável
+      • Clean Code / SOLID e boas práticas de LGPD em logs/evidências
     devicon_class: "devicon-javascript-plain colored"
+
+  - icon: "clipboard-check"
+    title: "Testes manuais"
+    description: |
+      • Testes exploratórios e regressão
+      • Smoke, UAT e validação de critérios de aceitação
+      • Planejamento, execução e evidências de casos de teste
+      • Análise de risco e cobertura funcional
+    devicon_class: "devicon-trello-plain colored"
 ---

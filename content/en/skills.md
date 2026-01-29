@@ -2,46 +2,43 @@
 title: "Skills"
 type: "homepage"
 intro: >-
-  Combining 14+ years of structural engineering expertise with modern full-stack software development, specializing in Python, React, and AI/ML capabilities.
-
+  Technical and leadership skills I use to ensure quality and alignment with the business.
 domains:
-  - icon: "code"
-    title: "Full Stack Development"
-    description: "Building scalable full-stack solutions with Python (FastAPI, NestJS) and React (Next.js, TypeScript), maintaining 50/50 backend/frontend split. Expertise in OOP principles, design patterns (DRY, YAGNI, SOLID), and microservices architecture."
-    devicon_class: "devicon-python-plain colored"
-
-  - icon: "brain"
-    title: "AI Security & Compliance"
-    description: "Designing and developing security and compliance features for LLM-based agents. Building enterprise-grade solutions with regulatory compliance for financial applications, leveraging Generative AI technologies."
-    devicon_class: "devicon-tensorflow-original colored"
-
-  - icon: "database"
-    title: "Database & Data Management"
-    description: "Implementing and optimizing PostgreSQL database schemas, queries, and data pipelines. Handling complex relationships and ensuring regulatory compliance for financial-grade applications."
-    devicon_class: "devicon-postgresql-plain colored"
-
-  - icon: "tools"
-    title: "Engineering Expertise"
-    description: "Applying structural engineering knowledge with modern technology to create innovative solutions for complex engineering challenges."
-    devicon_class: "devicon-docker-plain colored"
-
   - icon: "users"
-    title: "Agile Collaboration & Leadership"
-    description: "Collaborating with global distributed teams in Agile Scrum environments. Leading cross-functional teams in R&D and software development, managing complex projects, and coordinating multidisciplinary initiatives."
-    devicon_class: "devicon-github-original colored"
+    title: "Leadership"
+    description: |
+      - Mentoring and People Leadership
+      - Stakeholder Management
+      - Communication with Dev/PO/Business
+      - Risk alignment, prioritization, and metrics
+    devicon_class: "devicon-github-plain colored"
 
-  - icon: "lightbulb"
-    title: "Business & Strategy"
-    description: "Developing innovation strategies and preparing comprehensive documentation for tech-driven solutions, including investment proposals exceeding $500K USD."
-    devicon_class: "devicon-react-original colored"
+  - icon: "tasks"
+    title: "Quality Management & Governance"
+    description: |
+      - Test Strategy & Governance (strategy, process, standards)
+      - Test Planning & Reporting
+      - Shift-Left Testing
+      - Risk-Based Testing
+      - GO/NO-GO and quality metrics
+    devicon_class: "devicon-git-plain colored"
 
-  - icon: "globe"
-    title: "International Experience"
-    description: "Native Spanish speaker with IELTS C1 English proficiency and TCF B2 French, enabling effective communication in diverse international settings and global distributed teams."
-    devicon_class: "devicon-html5-plain colored"
-
-  - icon: "hands-helping"
-    title: "Community & Learning"
-    description: "Active in volunteer work and professional development, including structural assessment for disaster relief and student welcome programs. Recipient of Academic Excellence Scholarship at Collège LaSalle Montréal."
+  - icon: "robot"
+    title: "Automation"
+    description: |
+      - Quality Engineering / QA Automation
+      - API & Contract Testing
+      - End-to-End (E2E) and Performance Testing
+      - BDD (Gherkin) and TDD when applicable
+      - Clean Code / SOLID and LGPD-aware logging/evidence
     devicon_class: "devicon-javascript-plain colored"
+
+  - icon: "clipboard-check"
+    title: "Manual testing"
+    description: |
+      - Exploratory and regression testing
+      - Smoke, UAT, and acceptance criteria validation
+      - Planning, execution, and evidence of test cases
+      - Risk analysis and functional coverage
+    devicon_class: "devicon-trello-plain colored"
 ---

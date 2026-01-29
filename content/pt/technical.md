@@ -2,222 +2,73 @@
 title: "Tech Stack"
 type: "homepage"
 intro: >-
-  Conhecimento técnico abrangendo desenvolvimento de software, IA/ML e tecnologias de engenharia.
-
+  Stacks usadas no dia a dia para garantir qualidade ponta a ponta.
 technical_groups:
-  - title: "Linguagens de Programação"
+  - title: "Automação E2E/UI"
+    icon: "laptop-code"
+    color_scheme: "purple"
+    skills:
+      - { name: "Playwright", icon_url: "https://playwright.dev/img/playwright-logo.svg" }
+      - { name: "Cypress", devicon_name: "cypressio" }
+      - { name: "Selenium", devicon_name: "selenium" }
+
+  - title: "Automação (Linguagens)"
     icon: "code"
     color_scheme: "blue"
     skills:
-      - icon: "python"
-        name: "Python"
-        devicon_name: "python"
-      - icon: "js"
-        name: "JavaScript"
-        devicon_name: "javascript"
-      - icon: "typescript"
-        name: "TypeScript"
-        devicon_name: "typescript"
+      - { name: "Python", devicon_name: "python" }
+      - { name: "Pytest", icon_url: "https://docs.pytest.org/en/stable/_static/pytest1.png" }
+      - { name: "Java", devicon_name: "java" }
 
-  - title: "Fundamentos Web"
-    icon: "globe"
-    color_scheme: "blue"
-    skills:
-      - icon: "html5"
-        name: "HTML"
-        devicon_name: "html5"
-      - icon: "css3-alt"
-        name: "CSS"
-        devicon_name: "css3"
-      - icon: "wind"
-        name: "Tailwind CSS"
-        devicon_name: "tailwindcss"
-
-  - title: "Linguagens de Consulta"
-    icon: "database"
+  - title: "APIs"
+    icon: "plug"
     color_scheme: "green"
     skills:
-      - icon: "database"
-        name: "SQL"
-        devicon_name: "azuresqldatabase"
-      - icon: "server"
-        name: "NoSQL"
+      - { name: "Postman", devicon_name: "postman" }
+      - { name: "Bruno", icon_url: "https://www.usebruno.com/_next/image?url=%2Fbruno-logo-icon-wordmark-tagline-light.png&w=256&q=75", size: 112 }
+      - { name: "REST Assured", icon_url: "https://avatars.githubusercontent.com/u/7658037?s=200&v=4" }
+      - { name: "JUnit 5", icon_url: "https://junit.org/assets/img/junit-logo.svg", size: 112 }
 
-  - title: "Frameworks de Backend"
-    icon: "server"
-    color_scheme: "blue"
-    skills:
-      - icon: "bolt"
-        name: "FastAPI"
-        devicon_name: "fastapi"
-      - icon: "node-js"
-        name: "NestJS"
-        devicon_name: "nestjs"
-
-  - title: "Frameworks de Frontend"
-    icon: "palette"
-    color_scheme: "purple"
-    skills:
-      - icon: "atom"
-        name: "React"
-        devicon_name: "react"
-      - icon: "forward"
-        name: "Next.js"
-        devicon_name: "nextjs"
-      - icon: "cube"
-        name: "Three.js"
-        devicon_name: "threejs"
-      - icon: "chart-line"
-        name: "Plotly Dash"
-        devicon_name: "plotly"
-      - icon: "window-maximize"
-        name: "Streamlit"
-        devicon_name: "streamlit"
-      - icon: "window-restore"
-        name: "Qt"
-        devicon_name: "qt"
-      - icon: "zap"
-        name: "Vite"
-        devicon_name: "vite"
-      - icon: "vuejs"
-        name: "Vue.js"
-        devicon_name: "vuejs"
-      - icon: "bootstrap"
-        name: "Bootstrap"
-        devicon_name: "bootstrap"
-
-  - title: "Data Science"
-    icon: "chart-line"
-    color_scheme: "orange"
-    skills:
-      - icon: "square-root-alt"
-        name: "NumPy"
-        devicon_name: "numpy"
-      - icon: "table-cells"
-        name: "Pandas"
-        devicon_name: "pandas"
-      - icon: "map"
-        name: "GeoPandas"
-      - icon: "chart-line"
-        name: "Plotly"
-        devicon_name: "plotly"
-      - icon: "chart-bar"
-        name: "Matplotlib"
-        devicon_name: "matplotlib"
-      - icon: "file-pdf"
-        name: "ReportLab"
-
-  - title: "Frameworks de IA/ML"
-    icon: "brain"
-    color_scheme: "purple"
-    skills:
-      - icon: "network-wired"
-        name: "PyTorch"
-        devicon_name: "pytorch"
-      - icon: "layer-group"
-        name: "TensorFlow"
-        devicon_name: "tensorflow"
-      - icon: "microchip"
-        name: "Scikit-learn"
-        devicon_name: "scikitlearn"
-      - icon: "eye"
-        name: "OpenCV"
-        devicon_name: "opencv"
-      - icon: "robot"
-        name: "Hugging Face Transformers"
-      - icon: "layer-group"
-        name: "Keras"
-        devicon_name: "keras"
-
-  - title: "Ferramentas de Desenvolvimento"
-    icon: "tools"
-    color_scheme: "green"
-    skills:
-      - icon: "code-branch"
-        name: "Git"
-        devicon_name: "git"
-      - icon: "github"
-        name: "GitHub"
-        devicon_name: "github"
-      - icon: "gitlab"
-        name: "GitLab"
-        devicon_name: "gitlab"
-      - icon: "code"
-        name: "VSCode"
-        devicon_name: "vscode"
-      - icon: "linux"
-        name: "Linux"
-        devicon_name: "linux"
-      - icon: "linux"
-        name: "Arch Linux"
-        devicon_name: "archlinux"
-      - icon: "docker"
-        name: "Docker"
-        devicon_name: "docker"
-      - icon: "docker"
-        name: "Podman"
-        devicon_name: "podman"
-      - icon: "laptop-code"
-        name: "Jupyter"
-        devicon_name: "jupyter"
-      - icon: "cloud"
-        name: "GCP"
-        devicon_name: "googlecloud"
-      - icon: "paper-plane"
-        name: "Postman"
-        devicon_name: "postman"
-      - icon: "server"
-        name: "Nginx"
-        devicon_name: "nginx"
-      - icon: "rocket"
-        name: "Hugo"
-        devicon_name: "hugo"
-
-  - title: "Bancos de Dados"
-    icon: "database"
-    color_scheme: "blue"
-    skills:
-      - icon: "elephant"
-        name: "PostgreSQL"
-        devicon_name: "postgresql"
-      - icon: "database"
-        name: "SQLModel"
-      - icon: "database"
-        name: "MySQL"
-        devicon_name: "mysql"
-      - icon: "database"
-        name: "SQLite"
-        devicon_name: "sqlite"
-      - icon: "leaf"
-        name: "MongoDB"
-        devicon_name: "mongodb"
-      - icon: "database"
-        name: "Supabase"
-        devicon_name: "supabase"
-      - icon: "fire"
-        name: "Firebase"
-        devicon_name: "firebase"
-
-  - title: "Softwares de Engenharia"
-    icon: "building"
+  - title: "Performance"
+    icon: "tachometer-alt"
     color_scheme: "red"
     skills:
-      - icon: "building"
-        name: "OpenSees"
-      - icon: "building"
-        name: "SAP2000"
-      - icon: "building"
-        name: "ETABS"
-      - icon: "building"
-        name: "SAFE"
-      - icon: "draw-polygon"
-        name: "BIM"
-      - icon: "draw-polygon"
-        name: "CAD"
-      - icon: "map"
-        name: "QGIS"
-      - icon: "calculator"
-        name: "MATLAB"
-        devicon_name: "matlab"
+      - { name: "JMeter", icon_url: "https://jmeter.apache.org/images/logo.svg" }
+      - { name: "k6", icon_url: "https://raw.githubusercontent.com/grafana/k6/master/assets/logo.svg" }
 
+  - title: "CI/CD"
+    icon: "cogs"
+    color_scheme: "orange"
+    skills:
+      - { name: "Jenkins", devicon_name: "jenkins" }
+      - { name: "GitLab CI", devicon_name: "gitlab" }
+      - { name: "Azure DevOps", devicon_name: "azuredevops" }
+
+  - title: "Reporting"
+    icon: "file-alt"
+    color_scheme: "teal"
+    skills:
+      - { name: "Allure Reporting", icon_url: "https://allurereport.org/svg/logo-report-sign.svg" }
+      - { name: "Cucumber", icon_url: "https://cucumber.io/img/logo.svg" }
+
+  - title: "Versionamento"
+    icon: "code-branch"
+    color_scheme: "gray"
+    skills:
+      - { name: "Git", devicon_name: "git" }
+      - { icon: "project-diagram", name: "GitFlow" }
+
+  - title: "Infra / execução"
+    icon: "boxes"
+    color_scheme: "slate"
+    skills:
+      - { name: "Docker", devicon_name: "docker" }
+
+  - title: "Dados / validação"
+    icon: "database"
+    color_scheme: "blue"
+    skills:
+      - { icon: "database", name: "SQL" }
+
+# Se precisar de ícones locais para evitar dependência externa, posso baixar e apontar para static/images/icons/.
 ---

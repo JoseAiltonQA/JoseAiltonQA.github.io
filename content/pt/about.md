@@ -1,51 +1,43 @@
 ---
 title: "Sobre"
 type: "homepage"
-featured_image: "/images/felipe-cordero-profile.jpeg"
+featured_image: "/images/JoseAiltonQA-profile.jpeg"
 intro: >-
-  Olá! Sou Felipe Cordero, **engenheiro estrutural** 🏗️ e **desenvolvedor full stack** 💻 com **mais de 14 anos** em AEC e desenvolvimento de software, hoje especializado em **IA/ML** 🧠. Minha trajetória levou-me do **Chile a Montréal**, onde combino engenharia tradicional com tecnologia moderna para resolver problemas complexos de engenharia e automação. Atualmente sou **AI and Full Stack Developer** na <a href="https://fireraven.ai" target="_blank" rel="noopener noreferrer"><strong>Fireraven</strong></a>, criando soluções de segurança e conformidade para agentes de IA baseados em LLM. Recentemente fui contemplado com a **Bolsa de Excelência Acadêmica** (Air Canada, Collège LaSalle Montréal, 2025) 🏅.
-
+  Qualidade de Software e Gestão e Gerência de Qualidade de Software (GQS) em São Paulo, unindo estratégia de testes, automação e liderança técnica para entregar software confiável e reduzir riscos ao negócio.
 study: >-
-  Baseado em **Montréal** 🇨🇦, estou aprofundando habilidades em **Inteligência Artificial e Aprendizado de Máquina** 🧠 no **Collège LaSalle**. Trabalho com **Python** 🐍, **PyTorch** e **modelagem preditiva** 📈 para construir sistemas inteligentes que conectam engenharia e ciência de dados.
-
+  Especialista em Engenharia da Qualidade de Software (Centro Universitário SENAC-SP, 2022). MBA em Gestão de Pessoas (PUC-RS, iniciado em 01/2025 e atualmente trancado). Graduação em Análise e Desenvolvimento de Sistemas (UCSal, 2014). Foco em QA integrado ao SDLC, automação e testes baseados em risco.
 passion_title: "O que me move"
 passion_text: >-
-  Sou apaixonado por aplicar **IA a desafios reais de engenharia** 🔧. Na <a href="https://fireraven.ai" target="_blank" rel="noopener noreferrer"><strong>Fireraven</strong></a>, desenho e desenvolvo **soluções full-stack escaláveis** usando **Python (FastAPI, NestJS)** e **React (Next.js, TypeScript)** para plataformas de segurança e compliance com LLMs, mantendo um **equilíbrio 50/50 entre backend e frontend** ⚖️. Implemento e otimizo **bancos PostgreSQL**, aplico **princípios de POO e padrões de projeto (DRY, YAGNI, SOLID)** para bases de código manuteníveis e colaboro com **times distribuídos** em ambientes Agile Scrum 🤝. Antes, na <a href="https://obralink.com" target="_blank" rel="noopener noreferrer"><strong>ObraLink</strong></a>, liderei o desenvolvimento de **ferramentas autônomas de análise estrutural** e **modelos de ML** para estimativa de concreto 🏢. Meu objetivo é criar **soluções inovadoras** com impacto real no ambiente construído.
-
+  Planejo e executo estratégias de QA com abordagem shift-left, combinando testes manuais exploratórios e automação (Playwright, Cypress, Selenium, RestAssured/Java/Kotlin/Ruby) em pipelines CI/CD. Priorizo cobertura de risco, rastreabilidade e feedback rápido, colaborando com Dev, PO, BA e Delivery.
 mix: >-
-  Com experiência em **engenharia estrutural** 🏗️ e **desenvolvimento de software** 💻, trago uma **perspectiva única** para desafios técnicos. Já liderei equipes construindo desde **estruturas físicas até sistemas de software escaláveis**, sempre com foco em **soluções práticas e eficientes** ⚡. Meu **histórico internacional** e o compromisso com o **aprendizado contínuo** impulsionam-me a unir disciplinas e gerar valor em diferentes indústrias.
-
+  Já liderei times de até 30+ profissionais (UI/UX, Dev, QA), definindo metas, métricas e planos de evolução. Experiência em testes de API, E2E, regressão, performance básica (JMeter, K6) e decisões GO/NO-GO.
 personal: >-
-  Fora do trabalho, gosto de **tênis** 🎾, **cozinhar** 👨‍🍳, **bateria** 🥁, **natação** 🏊‍♂️ e **fotografia** 📸. Também sou **voluntário no LaSalle College**, ajudando novos estudantes e apoiando a comunidade acadêmica 🙏.
-
+  Baseado em Cotia/SP. Gosto de aprender novas ferramentas de teste, compartilhar conhecimento e apoiar times em ambientes ágeis.
 quickfacts:
   - icon: "briefcase"
     title: "Função atual"
-    value: "🧠 AI and Full Stack Developer na <a href=\"https://fireraven.ai\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Fireraven</strong></a>"
+    value: "QC Analyst (Analyst SSr) na Globant"
   - icon: "graduation-cap"
     title: "Educação"
-    value: "🏗️ <a href=\"https://uchile.cl/\" target=\"_blank\" rel=\"noopener noreferrer\">Universidade do Chile</a>, **Engenharia Civil**<br>🧠 <a href=\"https://lasallecollege.lcieducation.com/en\" target=\"_blank\" rel=\"noopener noreferrer\">Collège LaSalle Montréal</a>, **AEC: Inteligência Artificial e Aprendizado de Máquina**"
+    value: "Pós-graduação Eng. Qualidade de Software (SENAC-SP, 2022); MBA Gestão de Pessoas (PUC-RS, iniciado 01/2025, trancado); ADS (UCSal, 2014)"
   - icon: "award"
-    title: "Conquista recente"
-    value: "🏅 Vencedor da <a href=\"/blog/academic-excellence-recognition/\" target=\"_blank\" rel=\"noopener\">Bolsa de Excelência Acadêmica</a> 🎖️ patrocinada pela ✈️ Air Canada no Collège LaSalle Montréal (2025) 🎊"
+    title: "Experiência"
+    value: "15+ anos em tecnologia · 11+ em QA/QC e automação"
   - icon: "language"
     kind: "languages"
     title: "Idiomas"
     value: |
-      - 🇬🇧 Inglês (IELTS C1)
-      - 🇪🇸 Espanhol (Nativo)
-      - 🇫🇷 Francês (TCF B2)
+      - Português (nativo)
+      - Inglês (B1, pré-intermediário)
+      - Espanhol (A2, básico)
+  - icon: "map-marker-alt"
+    title: "Localização"
+    value: "Cotia, São Paulo — Brasil"
   - icon: "heart"
     kind: "interests"
     title: "Interesses"
     value: |
-      - ♟️ Xadrez
-      - 🎾 Tênis
-      - 🚴 Ciclismo
-      - 🏊‍♂️ Natação
-      - 👨‍🍳 Cozinhar
-      - 🥁 Bateria
-      - 📸 Fotografia
-      - ✈️ Viajar
-      - 📚 Leitura
+      - Aprendizado contínuo em QA/automação
+      - Mentoria e desenvolvimento de times
+      - Melhoria de processos e métricas de qualidade
 ---

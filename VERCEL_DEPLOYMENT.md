@@ -37,7 +37,7 @@ vercel
 # - Set up and deploy? Y
 # - Which scope? (your account)
 # - Link to existing project? N
-# - Project name: felipe-cordero-website
+# - Project name: jose-ailton-qa-website
 # - Directory: ./
 # - Override settings? N
 ```

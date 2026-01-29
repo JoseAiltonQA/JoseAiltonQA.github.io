@@ -2,8 +2,8 @@
 title: "Contact"
 type: "homepage"
 intro: >-
-  Let's connect! I'm always interested in hearing about new projects and opportunities.
+  Let's talk about quality and automation? Drop a line or connect with me.
 ---
-
-
-
+Email: jafajr.ti@gmail.com  
+Phone/WhatsApp: +55 11 95136-3894  
+LinkedIn: https://linkedin.com/in/jafajr
