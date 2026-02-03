@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <rect width="120" height="120" rx="18" fill="#E8F5E9"/>
-  <circle cx="60" cy="45" r="26" fill="#2E7D32"/>
-  <text x="60" y="88" text-anchor="middle" font-family="Inter,Arial" font-size="16" font-weight="700" fill="#1B5E20">REST Assured</text>
-</svg>

@@ -25,8 +25,9 @@ technical_groups:
     color_scheme: "green"
     skills:
       - { name: "Postman", icon_url: "/images/imgStack/postman.svg" }
+      - { name: "Insomnia", icon_url: "/images/imgStack/insomnia.svg" }
       - { name: "Bruno", icon_url: "/images/imgStack/bruno.svg", size: 112 }
-      - { name: "REST Assured", icon_url: "/images/imgStack/rest-assured.svg" }
+      - { name: "REST Assured", icon_url: "/images/imgStack/rest-assured.png" }
       - { name: "JUnit 5", icon_url: "/images/imgStack/junit5.svg", size: 112 }
 
   - title: "Performance"
@@ -42,13 +43,13 @@ technical_groups:
     skills:
       - { name: "Jenkins", icon_url: "/images/imgStack/jenkins.svg" }
       - { name: "GitLab CI", icon_url: "/images/imgStack/gitlab.svg" }
-      - { name: "Azure DevOps", icon_url: "/images/imgStack/azuredevops.svg" }
+      - { name: "Azure DevOps", icon_url: "/images/imgStack/azure.png" }
 
   - title: "Reporting"
     icon: "file-alt"
     color_scheme: "teal"
     skills:
-      - { name: "Allure Reporting", icon_url: "/images/imgStack/allure.svg" }
+      - { name: "Allure Reporting", icon_url: "/images/imgStack/allure.png" }
       - { name: "Cucumber", icon_url: "/images/imgStack/cucumber.svg" }
 
   - title: "Versionamento"
@@ -56,6 +57,7 @@ technical_groups:
     color_scheme: "gray"
     skills:
       - { name: "Git", icon_url: "/images/imgStack/git.svg" }
+      - { name: "GitHub", icon_url: "/images/imgStack/github.png" }
       - { name: "GitFlow", icon_url: "/images/imgStack/gitflow.svg" }
 
   - title: "Infra / execução"
@@ -68,7 +70,8 @@ technical_groups:
     icon: "database"
     color_scheme: "blue"
     skills:
-      - { name: "SQL", icon_url: "/images/imgStack/sql.svg" }
+      - { name: "SQL", icon_url: "/images/imgStack/sql.png" }
+      - { name: "MySQL", icon_url: "/images/imgStack/mysql.svg" }
 
 # Se precisar de ícones locais para evitar dependência externa, posso baixar e apontar para static/images/icons/.
 ---
